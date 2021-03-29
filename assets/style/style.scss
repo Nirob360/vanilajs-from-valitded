@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap');
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.from-section{
+    background: url('../image/bg.jpg') no-repeat center center /cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.container{
+   
+
+  .control{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    form {
+
+       
+
+        background-color: rgba(0, 0, 0, 0.534);
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        border-radius: 6px;
+
+
+        label{
+
+             display: block;
+             width: 100%;
+             color: #fff;
+             font-size: 20px;
+             font-weight: 600;
+             cursor: pointer;
+             margin-bottom: 5px;
+             text-transform: capitalize;
+
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+        }
+
+        small{
+            color: #ff0000;
+            visibility: hidden;
+        }
+           
+        
+        .submit{
+
+         text-align: left;
+         margin-top: 20px;
+    button{
+        padding: 10px 30px;
+        border: none;
+        border-radius: 6px;
+        font-weight: 700;
+
+    }
+        }
+
+
+
+
+      .error{
+
+        small{
+            color: red;
+            visibility: visible;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        input{
+            border: 2px solid red;
+        }
+
+
+
+       } 
+
+       .success{
+        input{
+            border: 2px solid #36e600;
+        }
+
+       }
+
+        
+    }
+  }
+
+    
+
+
+}
+
+
+
